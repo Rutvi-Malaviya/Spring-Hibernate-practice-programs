@@ -1,0 +1,5 @@
+package com.rutvi.springboot.demo.myCoolApp.rest;
+
+public class FunRestController {
+
+}

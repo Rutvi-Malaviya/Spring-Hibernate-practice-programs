@@ -1,0 +1,5 @@
+package com.rutvi.springboot.crud.demo.dao;
+
+public interface EmployeeDAO {
+
+}

@@ -1,0 +1,28 @@
+package com.rutvi.springboot.crud.demo.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.rutvi.springboot.crud.demo.entity.Employee;
+
+@Repository
+public class EmployeeDAOHibernateImpl implements EmployeeDAO {
+
+	private EntityManager entityManager;
+	
+	@Autowired
+	public EmployeeDAOHibernateImpl(EntityManager em) {
+		entityManager=em;
+	}
+	
+	@Override
+	public List<Employee> findAll() {
+	
+		return null;
+	}
+
+}

@@ -1,0 +1,34 @@
+package com.rutvi.springdemo.mvc.validation;
+
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
+
+public class CourseCodeConstraintValidator implements ConstraintValidator<CourseCode, String> {
+	
+	private String coursePrefix;
+	
+	@Override
+	public void initialize(CourseCode theCourseCode) {
+		coursePrefix = theCourseCode.value();
+		System.out.println("initialize: "+coursePrefix);
+	}
+
+	@Override
+	public boolean isValid(String theCode,
+			  	ConstraintValidatorContext theConstraintValidatorContext) {
+		
+		boolean result; 
+		
+		if(coursePrefix==null) {
+			result = theCode.startsWith(coursePrefix);
+			System.out.println("theCode: "+ theCode);
+			System.out.println("result: " + result);
+		}
+		else {
+			result = true;
+		}
+		
+		return result;
+	}	
+
+}

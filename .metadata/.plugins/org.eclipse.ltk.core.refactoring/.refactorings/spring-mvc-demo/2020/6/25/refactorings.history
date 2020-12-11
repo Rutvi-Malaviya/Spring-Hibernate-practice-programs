@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.rutvi.springdemo.mvc.validation.CourseCodeValidator&apos; to &apos;CourseCodeConstraintValidator&apos;&#x0A;- Original project: &apos;spring-mvc-demo&apos;&#x0A;- Original element: &apos;com.rutvi.springdemo.mvc.validation.CourseCodeValidator&apos;&#x0A;- Renamed element: &apos;com.rutvi.springdemo.mvc.validation.CourseCodeConstraintValidator&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CourseCodeValidator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.rutvi.springdemo.mvc.validation{CourseCodeValidator.java[CourseCodeValidator" matchStrategy="1" name="CourseCodeConstraintValidator" qualified="false" references="true" similarDeclarations="false" stamp="1592355281365" textual="false" version="1.0"/>
+</session>

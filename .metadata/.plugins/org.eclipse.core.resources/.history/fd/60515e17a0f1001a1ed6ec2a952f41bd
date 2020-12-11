@@ -1,0 +1,5 @@
+package com.rutvi.springboot.crud.demo.entity;
+
+public class Employee {
+
+}

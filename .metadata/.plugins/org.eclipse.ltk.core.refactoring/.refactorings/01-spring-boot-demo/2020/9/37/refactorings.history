@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.rutvi.springboot.deom.myCoolApp&apos; to &apos;com.rutvi.springboot.demo.myCoolApp&apos;&#x0A;- Original project: &apos;myCoolApp&apos;&#x0A;- Original element: &apos;myCoolApp/src/main/java/com.rutvi.springboot.deom.myCoolApp&apos;&#x0A;- Renamed element: &apos;myCoolApp/src/main/java/com.rutvi.springboot.demo.myCoolApp&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.rutvi.springboot.deom.myCoolApp&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rutvi.springboot.deom.myCoolApp" name="com.rutvi.springboot.demo.myCoolApp" qualified="false" references="true" stamp="1599416070300" textual="false" version="1.0"/>
+</session>

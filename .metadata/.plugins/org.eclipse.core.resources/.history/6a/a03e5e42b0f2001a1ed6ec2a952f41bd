@@ -1,0 +1,59 @@
+package com.rutvi.springboot.Thymeleafdemo.model;
+
+public class Employee {
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String email;
+	
+	public Employee() {
+		
+	}
+
+	public Employee(int id, String firstName, String astName, String email) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = astName;
+		this.email = email;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getAstName() {
+		return lastName;
+	}
+
+	public void setAstName(String astName) {
+		this.lastName = astName;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
+	}
+	
+	
+}

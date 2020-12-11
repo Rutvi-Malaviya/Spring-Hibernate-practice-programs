@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Sep 04 23:20:40 IST 2020
+org.eclipse.jst.jee.server\:/binary\:/Users/rutvi/.m2/repository/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar=WEB-INF/lib/spring-web-5.0.6.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/rutvi/.m2/repository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar=WEB-INF/lib/spring-web-5.0.5.RELEASE.jar

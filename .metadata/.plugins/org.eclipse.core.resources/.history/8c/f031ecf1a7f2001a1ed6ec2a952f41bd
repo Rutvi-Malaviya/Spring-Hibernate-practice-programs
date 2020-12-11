@@ -1,0 +1,5 @@
+package com.rutvi.springboot.Thymeleafdemo.controller;
+
+public class DemoController {
+
+}
